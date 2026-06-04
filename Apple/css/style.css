@@ -10,18 +10,17 @@ body{
 img{
     max-width: 100%;
 }
-/* Header style */
 .header-wrapper{
     background-color: black;
     color: white;
     font-weight: 200;
     font-size: 0.75em;
+    position: sticky;
+    top: 0;
 }
 
 .header-wrapper ul{
     display: flex;
-    /* acts as a fallback 
-      it gets ignored since its ancient*/
     -webkit-box-pack: justify;    
     justify-content: space-between;
 }
@@ -65,11 +64,6 @@ img{
 .header-wrapper .header-links-wrapper ul li.cart-link{
     padding: 12px 0px 10px;
 }
-
-
-
-/* footer styling */
-
 .footer-wrapper{
     width: 980px;
     text-align: justify;
@@ -159,8 +153,6 @@ img{
     display: inline-block;
     vertical-align: top;
 }
-
-/* Main highlight section */
 .main-highlight-wrapper{
     background-color: #fafafa;
     text-align: center;
@@ -173,6 +165,10 @@ img{
 
 .model {
 font-size: .85em;
+}
+.model-2{
+    font-weight: 700;
+font-size: 56px;
 }
 .product-title {
 font-weight: 700;
@@ -201,8 +197,6 @@ font-weight: 900;
 content: "\f105";
 padding-left: 10px;
 }
-
-/* Second Highlight Section */
 .second-highlight-wrapper {
 background-image: url("../images/home/iphone11-pro-bg.jpg");
 height: 580px;
@@ -226,8 +220,6 @@ padding: 10px 0;
 color: #86868b;
 font-size: 0.85em;
 }
-
-/* Third Highlight Section */
 .third-highlight-wrapper {
 background-image: url("../images/home/iphone11-bg.jpg");
 height: 580px;
@@ -237,8 +229,6 @@ background-size: cover;
 text-align: center;
 padding: 65px 20px;
 }
-
-/*Fourth Highlight Section */
 .fourth-highlight-wrapper {
 display: flex;
 -webkit-box-pack: justify;
@@ -276,9 +266,6 @@ max-width: 430px;
 margin: 0 auto;
 padding: 10px;
 }
-
-/* Fifth Highlight Section  */
-
 .fifth-highlight-wrapper {
 display: flex;
 -webkit-box-pack: justify;
@@ -313,8 +300,6 @@ font-weight: 900;
 content: "\f144";
 padding-left: 15px;
 }
-
-/* Sixth Highlight Section */
 .sixth-highlight-wrapper {
 display: flex;  
 -webkit-box-pack: justify;

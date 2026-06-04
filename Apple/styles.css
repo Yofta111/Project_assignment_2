@@ -10,12 +10,14 @@ body{
 img{
     max-width: 100%;
 }
-/* Header style */
 .header-wrapper{
     background-color: black;
     color: white;
     font-weight: 200;
     font-size: 0.75em;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 .header-wrapper ul{
@@ -34,7 +36,10 @@ img{
     text-decoration: none;
     color: white;
 }
-
+.header-wrapper{
+    position: sticky;
+    top: 0;
+}
 .header-wrapper ul {
     list-style: none;
 }
