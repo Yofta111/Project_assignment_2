@@ -1,0 +1,87 @@
+        .puppy-body {
+            background-color: black;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .puppy-container {
+            background-color: #fff;
+            width: 50%;
+            height: 50%;
+            margin: auto;
+        }
+        .puppy-header {
+            background-color: #0c4f70;
+            margin: 0;
+            padding: 1px 0px 1px 0;
+        }
+        .puppy-header-title {
+            text-align: center;
+            color: #fff;
+        }
+
+        .puppy-banner-wrapper {
+            display: flex;
+            margin: 0;
+        }
+        .puppy-banner-img {
+            max-inline-size: 100%;
+        }
+        .puppy-middle-row {
+            display: inline-flex;
+            align-items: center;
+            margin-left: 100px;
+        }
+        .puppy-img-left {
+            margin: 50px 10px 30px 50px;
+            width: 25%;
+        }
+        .puppy-missing-box {
+            display: inline-block;
+            background-color: #ef4c64;
+            width: 185px;
+            height: 210px;
+            max-inline-size: 100%;
+            margin-top: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+        .puppy-missing-text {
+            background-color: #ef4c64;
+            font-size: 30px;
+            height: 100px;
+            text-align: center;
+            margin: 40px;
+        }
+        .puppy-img-right {
+            margin: 50px 50px 30px 10px;
+            width: 25%;
+            max-block-size: 100%;
+        }
+        .puppy-more-heading {
+            text-align: center;
+        }
+        .puppy-gallery-row {
+            display: inline;
+            align-items: center;
+            margin-left: 150px;
+            margin-top: 100px;
+            width: 50%;
+        }
+        .puppy-gallery-img-first {
+            width: 30%;
+            margin-right: 50px;
+        }
+
+        .puppy-gallery-img-second {
+            width: 30%;
+        }
+
+        .puppy-footer {
+            background-color: #0c4f70;
+        }
+        .puppy-footer-text {
+            color: #fff;
+            padding-top: 50px;
+            padding-bottom: 70px;
+            text-align: center;
+        }
