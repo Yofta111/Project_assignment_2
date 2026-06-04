@@ -189,7 +189,7 @@ color: #06c;
 text-decoration: none;
 }
 .links-wrapper ul li a:hover {
-color: #515154;
+color: white;
 }
 .links-wrapper ul li a:after {
 font-family: "FontAwesome";
